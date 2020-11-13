@@ -152,10 +152,10 @@ console.log(lowerCaseNames())
 /* 🐴🐴🐴 Step 1: Base Constructor 🐴🐴🐴
   Create a constructor function named CuboidMaker that accepts properties for length, width, and height which can be initialized as an object
 */
-function CuboidMaker(length,width,height){
-  this.length=length;
-  this.width=width;
-  this.height=height;
+function CuboidMaker(attributes){
+  this.length=attributes.length;
+  this.width=attributes.width;
+  this.height=attributes.height;
 }
 
 
